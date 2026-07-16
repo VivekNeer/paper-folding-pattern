@@ -6,7 +6,7 @@ Returns "Valley" or "Mountain" for the x-th crease after n folds.
 
 By observation of the physical paper folding we get to know that:
 
-- the midpoint being = `(2^n)-1` is the brand new crease made by the last fold will always be a Valley
+- the midpoint being = `2^(n-1)` is the brand new crease made by the last fold will always be a Valley
 - all values left of midpoint retain their values which was held previously as such we can recurse with `n-1` and `x`
 - positions right of the midpoint are mirrored and inverted of the left half
 
